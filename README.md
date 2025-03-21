@@ -6,6 +6,7 @@ cd build
 rm -rf *
 cmake ..
 make
+或者 自动编译脚本：./autobuild.sh
 
 2.运行：
 （1）需要nginx的负载均衡（配置好相关文件nginx.conf,并启动）
